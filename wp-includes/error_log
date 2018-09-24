@@ -1,0 +1,20 @@
+[05-May-2018 17:17:35 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home/tfs/public_html/wp-includes/rss-functions.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/tfs/public_html/wp-includes/rss-functions.php on line 8
+[07-May-2018 10:10:04 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home/tfs/public_html/wp-includes/rss-functions.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/tfs/public_html/wp-includes/rss-functions.php on line 8
+[07-May-2018 10:22:07 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home/tfs/public_html/wp-includes/rss-functions.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/tfs/public_html/wp-includes/rss-functions.php on line 8
+[07-May-2018 10:24:17 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home/tfs/public_html/wp-includes/rss-functions.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/tfs/public_html/wp-includes/rss-functions.php on line 8
+[07-May-2018 10:51:09 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home/tfs/public_html/wp-includes/rss-functions.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/tfs/public_html/wp-includes/rss-functions.php on line 8

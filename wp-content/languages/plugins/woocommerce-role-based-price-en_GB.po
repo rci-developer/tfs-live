@@ -1,0 +1,292 @@
+# Translation of Stable (latest release) in English (UK)
+# This file is distributed under the same license as the Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2016-01-30 10:06:04+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/1.0-alpha-1100\n"
+"Project-Id-Version: Stable (latest release)\n"
+
+#. Author URI of the plugin/theme
+msgid "http://varunsridharan.in"
+msgstr "http://varunsridharan.in"
+
+#: plugins/class-aelia-currencyswitcher-Integration.php:49
+msgid "Aelia Currency Switcher"
+msgstr "Aelia Currency Switcher"
+
+#: plugins/class-aelia-currencyswitcher-Integration.php:63
+msgid "Allowed Currency"
+msgstr "Allowed Currency"
+
+#: plugins/class-aelia-currencyswitcher-Integration.php:64
+msgid "Allowed Currency To Show In Role Based Price Listing"
+msgstr "Allowed Currency To Show In Role Based Price Listing"
+
+#: plugins/class-aelia-currencyswitcher-Integration.php:108
+msgid "Role Based Price for Aelia Currency Switcher"
+msgstr "Role Based Price for Aelia Currency Switcher"
+
+#: plugins/class-wc-rbp-wp-all-import-aelia-Integration.php:24
+msgid "Aelia Currency Switcher Integration"
+msgstr "Aelia Currency Switcher Integration"
+
+#: woocommerce-role-based-price.php:367
+msgid "<strong> <i> WooCommerce Role Based Pricing </i> </strong> Requires"
+msgstr "<strong> <i> WooCommerce Role Based Pricing </i> </strong> Requires"
+
+#: woocommerce-role-based-price.php:367
+msgid " To Be Installed And Activated"
+msgstr " To Be Installed And Activated"
+
+#. Plugin Name of the plugin/theme
+msgid "WooCommerce Role Based Price"
+msgstr "WooCommerce Role Based Price"
+
+#. Plugin URI of the plugin/theme
+msgid "https://wordpress.org/plugins/woocommerce-role-based-price/"
+msgstr "https://wordpress.org/plugins/woocommerce-role-based-price/"
+
+#. Description of the plugin/theme
+msgid "Set WooCommerce Product Price Based On User Role"
+msgstr "Set WooCommerce Product Price Based On User Role"
+
+#. Author of the plugin/theme
+msgid "Varun Sridharan"
+msgstr "Varun Sridharan"
+
+#: woocommerce-role-based-price.php:367
+msgid " <u>Woocommerce</u>"
+msgstr " <u>WooCommerce</u>"
+
+#: admin/includes/views/popup_rbform_header.php:9
+msgid "off"
+msgstr "off"
+
+#: includes/class-product-pricing-frontend.php:278
+#: includes/class-product-pricing-frontend.php:283
+msgctxt "Price range: from-to"
+msgid "%1$s&ndash;%2$s"
+msgstr "%1$s&ndash;%2$s"
+
+#: includes/class-product-pricing-frontend.php:290
+msgid "Free!"
+msgstr "Free!"
+
+#: includes/class-activation.php:117
+msgid "Change Log"
+msgstr "Change Log"
+
+#: includes/class-product-functions.php:54
+msgid "Invalid User Role Given"
+msgstr "Invalid User Role Given"
+
+#: includes/class-product-functions.php:61
+msgid "Invalid Price Type Given"
+msgstr "Invalid Price Type Given"
+
+#: includes/class-activation.php:128
+msgid " Download's so far. help use reach more audience by sharing"
+msgstr " Downloads so far. help use reach more audience by sharing"
+
+#: admin/includes/views/popup_rbform_header.php:9
+msgid "on"
+msgstr "on"
+
+#: admin/includes/views/popup_rbform_content.php:26
+#: plugins/class-wp-all-import-pro-Integration.php:41
+msgid "Selling Price"
+msgstr "Selling Price"
+
+#: admin/includes/views/popup_rbform_footer.php:11
+#: admin/includes/views/popup_rbpform_bulkedit_footer.php:14
+msgid "Save Price"
+msgstr "Save Price"
+
+#: admin/includes/views/popup_rbform_header.php:6
+msgid "Enable Role Based Pricing"
+msgstr "Enable Role Based Pricing"
+
+#: admin/includes/settings-price-views.php:46
+msgid " "
+msgstr " "
+
+#: admin/includes/settings-price-views.php:4
+#: admin/includes/settings-price-views.php:41
+msgid "Simple Product"
+msgstr "Simple Product"
+
+#: admin/includes/settings-price-views.php:4
+#: admin/includes/settings-price-views.php:41
+msgid "Variable Product"
+msgstr "Variable Product"
+
+#: admin/includes/settings-price-views.php:14
+msgid "Hide Price For"
+msgstr "Hide Price For"
+
+#: admin/includes/settings-price-views.php:15
+msgid "Use to hide product price for selected roles"
+msgstr "Use to hide product price for selected roles"
+
+#: admin/includes/settings-price-views.php:25
+msgid "Hide Add To Cart Button For"
+msgstr "Hide Add To Cart Button For"
+
+#: admin/includes/settings-price-views.php:26
+msgid "Use to hide product add to cart button link for selected roles"
+msgstr "Use to hide product add to cart button link for selected roles"
+
+#: admin/includes/settings-price-views.php:35
+msgid "Products To Hide"
+msgstr "Products To Hide"
+
+#: admin/includes/settings-price-views.php:36
+msgid "For Which Products To Apply The Above Settings"
+msgstr "For Which Products To Apply The Above Settings"
+
+#: admin/includes/settings-price-views.php:45
+msgid "Variable Product Settings"
+msgstr "Variable Product Settings"
+
+#: admin/includes/settings-price-views.php:51
+msgid "Show Variations"
+msgstr "Show Variations"
+
+#: admin/includes/settings-price-views.php:51
+msgid "Hide Variations"
+msgstr "Hide Variations"
+
+#: admin/includes/settings-price-views.php:54
+msgid "Message For Price"
+msgstr "Message For Price"
+
+#: admin/includes/settings-price-views.php:55
+msgid "use <code>[curr]</code> to replace the currency symbol"
+msgstr "use <code>[curr]</code> to replace the currency symbol"
+
+#: admin/includes/settings-user-role-edit.php:6
+msgid "Custom Name For User Roles"
+msgstr "Custom Name For User Roles"
+
+#: admin/includes/settings-newsletter.php:34 includes/page-html.php:115
+msgid "Country"
+msgstr "Country"
+
+#: admin/includes/settings-newsletter.php:29 includes/page-html.php:106
+msgid "Website"
+msgstr "Website"
+
+#: admin/includes/settings-newsletter.php:25 includes/page-html.php:100
+msgid "Last Name"
+msgstr "Last Name"
+
+#: admin/includes/settings-newsletter.php:20 includes/page-html.php:94
+msgid "First Name"
+msgstr "First Name"
+
+#: admin/includes/settings-general.php:30
+#: admin/includes/views/popup_rbform_content.php:18
+#: plugins/class-wp-all-import-pro-Integration.php:40
+msgid "Regular Price"
+msgstr "Regular Price"
+
+#: admin/includes/settings-general.php:30
+msgid "Sale Price"
+msgstr "Sale Price"
+
+#: admin/includes/settings-newsletter.php:15 includes/page-html.php:86
+msgid "Email Address"
+msgstr "Email Address"
+
+#: admin/includes/class-simple-product.php:42
+#: admin/includes/class-simple-product.php:72
+msgid "<span class=\"wc_rbp_error\"> <strong> Please Save Or Publish This Product To Add Role Based Price </strong> </span>"
+msgstr "<span class=\"wc_rbp_error\"> <strong> Please Save Or Publish This Product To Add Role Based Price </strong> </span>"
+
+#: admin/includes/class-simple-product.php:45
+msgid "Role Based Price"
+msgstr "Role Based Price"
+
+#: admin/includes/class-simple-product.php:49
+#: admin/includes/class-simple-product.php:79
+msgid "Add / Edit Role Pricing"
+msgstr "Add / Edit Role Pricing"
+
+#: admin/includes/class-simple-product.php:106
+#: admin/includes/class-simple-product.php:130
+msgid "Unable To Save Product Role Price. Please Try Again."
+msgstr "Unable To Save Product Role Price. Please Try Again."
+
+#: admin/includes/class-simple-product.php:119
+#: admin/includes/class-simple-product.php:147
+msgid "Product's Role Based Pricing Updated"
+msgstr "Product's Role Based Pricing Updated"
+
+#: admin/includes/settings-general.php:14
+msgid "Allowed User Roles"
+msgstr "Allowed User Roles"
+
+#: admin/includes/settings-general.php:15
+msgid "User Roles To List In Product Edit Page"
+msgstr "User Roles To List In Product Edit Page"
+
+#: admin/includes/settings-general.php:24
+msgid "Allowed Product Pricing"
+msgstr "Allowed Product Pricing"
+
+#: admin/includes/settings-general.php:25
+msgid "Price Fields To List In Product Edit Page"
+msgstr "Price Fields To List In Product Edit Page"
+
+#: admin/includes/settings-newsletter.php:8 includes/page-html.php:73
+msgid "Subscribe to our mailing list"
+msgstr "Subscribe to our mailing list"
+
+#: admin/class-admin-settings.php:61
+msgid "Plugins"
+msgstr "Plugins"
+
+#: admin/class-admin-settings.php:54
+msgid "User Role Rename"
+msgstr "User Role Rename"
+
+#: admin/class-admin-settings.php:55
+msgid "Price Visibility"
+msgstr "Price Visibility"
+
+#: admin/class-admin-settings.php:53
+msgid "General"
+msgstr "General"
+
+#: admin/class-admin-settings.php:41
+#: plugins/class-wp-all-import-pro-Integration.php:23
+msgid "WooCommerce Role Based Pricing"
+msgstr "WooCommerce Role Based Pricing"
+
+#: admin/class-admin-init.php:211
+msgid "Contact Author"
+msgstr "Contact Author"
+
+#: admin/class-admin-init.php:206
+msgid "Donate"
+msgstr "Donate"
+
+#: admin/class-admin-init.php:200
+msgid "Report Issue"
+msgstr "Report Issue"
+
+#: admin/class-admin-init.php:189
+msgid "F.A.Q"
+msgstr "F.A.Q."
+
+#: admin/class-admin-init.php:183
+msgid "Settings"
+msgstr "Settings"
+
+#: admin/class-admin-init.php:52
+msgid "Role Based Price Bulk Edit"
+msgstr "Role Based Price Bulk Edit"

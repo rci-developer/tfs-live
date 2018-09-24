@@ -1,0 +1,777 @@
+0000.003 () Opened log file at time: Fri, 14 Sep 2018 17:01:57 +0000 on https://www.tfs.direct
+0000.004 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 2.14.12.24 WP: 4.9.8 PHP: 5.6.37 (cgi-fcgi, Linux vps-46f188.stackvps.com 2.6.32-696.23.1.el6.x86_64 #1 SMP Tue Mar 13 22:44:18 UTC 2018 x86_64) MySQL: 5.6.40 WPLANG: en_GB Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 39M | 39.8M) multisite: N openssl: OpenSSL 1.0.2p  14 Aug 2018 mcrypt: Y LANG:  ZipArchive::addFile: N
+0000.084 () Free space on disk containing Updraft's temporary directory: 125350.1 MB
+0000.087 () Restore job started. Entities to restore: plugins, themes, uploads, wpcore, db. Restore options: {"updraft_restorer_replacesiteurl":"1","updraft_encryptionphrase":"","updraft_restorer_wpcore_includewpconfig":false,"updraft_incremental_restore_point":-1}
+0000.120 () Will not delete any archives after unpacking them, because there was no cloud storage for this backup
+0000.124 () Entity: db
+0000.124 () restore_backup(backup_file=backup_2018-09-14-1736_tfsdirect_c786c9af4955-db.gz, type=db, info=a:0:{}, last_one=)
+0000.124 () Unpacking backup... (backup_2018-09-14-1736_tfsdirect_c786c9af4955-db.gz, 6.3 Mb)
+0000.142 () Database successfully unpacked
+0000.143 () Restoring the database (on a large site this can take a long time - if it times out (which can happen if your web hosting company has configured your hosting to limit resources) then you should use a different method, such as phpMyAdmin)...
+0000.144 () Using direct MySQL access; value of use_mysqli is: 1
+0000.158 () Max packet size: 256 MB
+0000.158 () Entering maintenance mode
+0000.158 () Enabling Maintenance mode&#8230;
+0000.160 () Backup created by: 2.15.1.24
+0000.160 () Backup of: https://tfsuk.roswellit.solutions
+0000.193 () Content URL: https://tfsuk.roswellit.solutions/wp-content
+0000.193 () Uploads URL: https://tfsuk.roswellit.solutions/wp-content/uploads
+0000.193 () Old table prefix: wpot_
+0000.194 () Site information: multisite=0
+0000.197 () New table prefix: wp_
+0000.200 () Processing table (InnoDB): wpot_options - will restore as: wp_options
+0000.669 () Restoring prior UD configuration (table: wp_options; keys: 91)
+0001.054 () Table prefix has changed: changing options table field(s) accordingly (options)
+0001.055 () Options table fields changed OK
+0001.062 () Search and replacing table: wp_options: rows: 1885
+0001.236 () Incomplete object detected in database: FS_Plugin; Search and replace will be skipped for these entries
+0001.236 () Incomplete object detected in database: FS_Plugin_Plan; Search and replace will be skipped for these entries
+0001.236 () Incomplete object detected in database: FS_Site; Search and replace will be skipped for these entries
+0001.238 () Incomplete object detected in database: FS_User; Search and replace will be skipped for these entries
+0001.487 () Processing table (InnoDB): wpot_users - will restore as: wp_users
+0001.512 () Search and replacing table: wp_users: rows: 105
+0001.522 () Processing table (InnoDB): wpot_usermeta - will restore as: wp_usermeta
+0001.899 () Table prefix has changed: changing usermeta table field(s) accordingly
+0001.911 () Usermeta table fields changed OK
+0001.913 () Search and replacing table: wp_usermeta: rows: 3418
+0002.259 () Processing table (InnoDB): wpot_commentmeta - will restore as: wp_commentmeta
+0002.286 () Search and replacing table: wp_commentmeta: rows: 130
+0002.293 () Processing table (InnoDB): wpot_comments - will restore as: wp_comments
+0002.386 () Search and replacing table: wp_comments: rows: 584
+0002.515 () Processing table (InnoDB): wpot_links - will restore as: wp_links
+0002.532 () Search and replacing table: wp_links: rows: 0
+0002.533 () Processing table (InnoDB): wpot_postmeta - will restore as: wp_postmeta
+0004.282 () Database queries processed: 50 in 4.13 seconds
+0008.628 () Database queries processed: 100 in 8.48 seconds
+0010.241 () Search and replacing table: wp_postmeta: rows: 50
+0010.360 () Processing table (InnoDB): wpot_posts - will restore as: wp_posts
+0011.162 () Skipping search/replace on GUID column in posts table
+0011.165 () Search and replacing table: wp_posts: rows: 3588
+0012.101 () Processing table (MyISAM): wpot_snippets - will restore as: wp_snippets
+0012.109 () Search and replacing table: wp_snippets: rows: 3
+0012.109 () Processing table (InnoDB): wpot_term_relationships - will restore as: wp_term_relationships
+0012.438 () Skipping this table: data in this table (wp_term_relationships) should not be search/replaced
+0012.439 () Processing table (InnoDB): wpot_term_taxonomy - will restore as: wp_term_taxonomy
+0012.552 () Search and replacing table: wp_term_taxonomy: rows: 1133
+0012.622 () Processing table (InnoDB): wpot_termmeta - will restore as: wp_termmeta
+0012.749 () Search and replacing table: wp_termmeta: rows: 1238
+0012.818 () Processing table (InnoDB): wpot_terms - will restore as: wp_terms
+0012.941 () Database queries processed: 150 in 12.79 seconds
+0012.943 () Search and replacing table: wp_terms: rows: 1133
+0013.010 () Processing table (InnoDB): wpot_woocommerce_order_itemmeta - will restore as: wp_woocommerce_order_itemmeta
+0014.158 () Search and replacing table: wp_woocommerce_order_itemmeta: rows: 11722
+0014.577 () Searching and replacing reached row: 5000
+0014.883 () Searching and replacing reached row: 10000
+0014.984 () Processing table (InnoDB): wpot_woocommerce_payment_tokenmeta - will restore as: wp_woocommerce_payment_tokenmeta
+0015.005 () Search and replacing table: wp_woocommerce_payment_tokenmeta: rows: 0
+0015.005 () Processing table (InnoDB): wpot_yoast_seo_links - will restore as: wp_yoast_seo_links
+0015.043 () Search and replacing table: wp_yoast_seo_links: rows: 129
+0015.053 () Processing table (InnoDB): wpot_yoast_seo_meta - will restore as: wp_yoast_seo_meta
+0015.181 () Search and replacing table: wp_yoast_seo_meta: rows: 1199
+0015.255 () Processing table (InnoDB): wpot_aws_index - will restore as: wp_aws_index
+0017.484 () Database queries processed: 200 in 17.33 seconds
+0018.238 () Search and replacing table: wp_aws_index: rows: 34316
+0018.556 () Searching and replacing reached row: 5000
+0018.873 () Searching and replacing reached row: 10000
+0019.185 () Searching and replacing reached row: 15000
+0019.542 () Searching and replacing reached row: 20000
+0019.889 () Searching and replacing reached row: 25000
+0020.251 () Searching and replacing reached row: 30000
+0020.583 () Processing table (MyISAM): wpot_bad_behavior - will restore as: wp_bad_behavior
+0020.652 () Search and replacing table: wp_bad_behavior: rows: 343
+0020.705 () Processing table (InnoDB): wpot_competition_entries - will restore as: wp_competition_entries
+0020.723 () Search and replacing table: wp_competition_entries: rows: 21
+0020.725 () Processing table (InnoDB): wpot_competition_entries_meta - will restore as: wp_competition_entries_meta
+0020.745 () Search and replacing table: wp_competition_entries_meta: rows: 105
+0020.756 () Processing table (InnoDB): wpot_email_log - will restore as: wp_email_log
+0021.838 () Search and replacing table: wp_email_log: rows: 2265
+0022.741 () Processing table (InnoDB): wpot_ewwwio_images - will restore as: wp_ewwwio_images
+0023.306 () Database queries processed: 250 in 23.16 seconds
+0024.379 () Search and replacing table: wp_ewwwio_images: rows: 9316
+0025.149 () Searching and replacing reached row: 5000
+0025.938 () Processing table (InnoDB): wpot_fpropdf_tmp - will restore as: wp_fpropdf_tmp
+0025.958 () Search and replacing table: wp_fpropdf_tmp: rows: 0
+0025.959 () Processing table (InnoDB): wpot_frm_fields - will restore as: wp_frm_fields
+0026.023 () Search and replacing table: wp_frm_fields: rows: 146
+0026.066 () Processing table (InnoDB): wpot_frm_forms - will restore as: wp_frm_forms
+0026.085 () Search and replacing table: wp_frm_forms: rows: 6
+0026.087 () Processing table (InnoDB): wpot_frm_item_metas - will restore as: wp_frm_item_metas
+0026.179 () Search and replacing table: wp_frm_item_metas: rows: 631
+0026.225 () Processing table (InnoDB): wpot_frm_items - will restore as: wp_frm_items
+0026.254 () Search and replacing table: wp_frm_items: rows: 32
+0026.270 () Processing table (MyISAM): wpot_ip2location_country_blocker_log - will restore as: wp_ip2location_country_blocker_log
+0036.853 () Search and replacing table: wp_ip2location_country_blocker_log: rows: 108286
+0037.268 () Searching and replacing reached row: 5000
+0037.700 () Searching and replacing reached row: 10000
+0038.189 () Searching and replacing reached row: 15000
+0038.659 () Searching and replacing reached row: 20000
+0039.138 () Searching and replacing reached row: 25000
+0039.527 () Searching and replacing reached row: 30000
+0039.918 () Searching and replacing reached row: 35000
+0040.330 () Searching and replacing reached row: 40000
+0040.747 () Searching and replacing reached row: 45000
+0041.147 () Searching and replacing reached row: 50000
+0041.615 () Searching and replacing reached row: 55000
+0042.086 () Searching and replacing reached row: 60000
+0042.496 () Searching and replacing reached row: 65000
+0042.924 () Searching and replacing reached row: 70000
+0043.338 () Searching and replacing reached row: 75000
+0043.779 () Searching and replacing reached row: 80000
+0044.205 () Searching and replacing reached row: 85000
+0044.629 () Searching and replacing reached row: 90000
+0045.060 () Searching and replacing reached row: 95000
+0045.498 () Searching and replacing reached row: 100000
+0045.921 () Searching and replacing reached row: 105000
+0046.204 () Processing table (MyISAM): wpot_litespeed_optimizer - will restore as: wp_litespeed_optimizer
+0046.210 () Search and replacing table: wp_litespeed_optimizer: rows: 0
+0046.210 () Processing table (InnoDB): wpot_micro_revisions - will restore as: wp_micro_revisions
+0046.249 () Search and replacing table: wp_micro_revisions: rows: 40
+0046.278 () Processing table (InnoDB): wpot_nf3_action_meta - will restore as: wp_nf3_action_meta
+0046.301 () Search and replacing table: wp_nf3_action_meta: rows: 65
+0046.305 () Processing table (InnoDB): wpot_nf3_actions - will restore as: wp_nf3_actions
+0046.319 () Search and replacing table: wp_nf3_actions: rows: 3
+0046.320 () Processing table (InnoDB): wpot_nf3_field_meta - will restore as: wp_nf3_field_meta
+0046.407 () Search and replacing table: wp_nf3_field_meta: rows: 1008
+0046.461 () Processing table (InnoDB): wpot_nf3_fields - will restore as: wp_nf3_fields
+0046.487 () Search and replacing table: wp_nf3_fields: rows: 38
+0046.493 () Processing table (InnoDB): wpot_nf3_form_meta - will restore as: wp_nf3_form_meta
+0046.514 () Search and replacing table: wp_nf3_form_meta: rows: 18
+0046.518 () Processing table (InnoDB): wpot_nf3_forms - will restore as: wp_nf3_forms
+0046.536 () Search and replacing table: wp_nf3_forms: rows: 1
+0046.536 () Processing table (InnoDB): wpot_nf3_object_meta - will restore as: wp_nf3_object_meta
+0046.552 () Search and replacing table: wp_nf3_object_meta: rows: 0
+0046.552 () Processing table (InnoDB): wpot_nf3_objects - will restore as: wp_nf3_objects
+0046.569 () Search and replacing table: wp_nf3_objects: rows: 0
+0046.569 () Processing table (InnoDB): wpot_nf3_relationships - will restore as: wp_nf3_relationships
+0046.584 () Search and replacing table: wp_nf3_relationships: rows: 0
+0046.584 () Processing table (InnoDB): wpot_omega_index_status - will restore as: wp_omega_index_status
+0047.699 () Search and replacing table: wp_omega_index_status: rows: 3120
+0048.275 () Processing table (InnoDB): wpot_ose_app_admin - will restore as: wp_ose_app_admin
+0048.289 () Search and replacing table: wp_ose_app_admin: rows: 0
+0048.289 () Processing table (InnoDB): wpot_ose_app_adminrecemail - will restore as: wp_ose_app_adminrecemail
+0048.306 () Search and replacing table: wp_ose_app_adminrecemail: rows: 0
+0048.306 () Processing table (InnoDB): wpot_ose_app_email - will restore as: wp_ose_app_email
+0048.321 () Search and replacing table: wp_ose_app_email: rows: 0
+0048.321 () Processing table (InnoDB): wpot_ose_app_geoip - will restore as: wp_ose_app_geoip
+0048.337 () Search and replacing table: wp_ose_app_geoip: rows: 0
+0048.337 () Processing table (InnoDB): wpot_ose_secConfig - will restore as: wp_ose_secConfig
+0048.353 () Search and replacing table: wp_ose_secConfig: rows: 0
+0048.353 () Processing table (InnoDB): wpot_osefirewall_acl - will restore as: wp_osefirewall_acl
+0048.370 () Search and replacing table: wp_osefirewall_acl: rows: 0
+0048.370 () Processing table (InnoDB): wpot_osefirewall_adminemails - will restore as: wp_osefirewall_adminemails
+0048.405 () Search and replacing table: wp_osefirewall_adminemails: rows: 0
+0048.406 () Processing table (InnoDB): wpot_osefirewall_advancepatterns - will restore as: wp_osefirewall_advancepatterns
+0048.439 () Search and replacing table: wp_osefirewall_advancepatterns: rows: 0
+0048.439 () Processing table (InnoDB): wpot_osefirewall_aiscan - will restore as: wp_osefirewall_aiscan
+0048.458 () Search and replacing table: wp_osefirewall_aiscan: rows: 0
+0048.458 () Processing table (InnoDB): wpot_osefirewall_attacktype - will restore as: wp_osefirewall_attacktype
+0048.470 () Search and replacing table: wp_osefirewall_attacktype: rows: 0
+0048.470 () Processing table (InnoDB): wpot_osefirewall_backup - will restore as: wp_osefirewall_backup
+0048.481 () Search and replacing table: wp_osefirewall_backup: rows: 0
+0048.482 () Processing table (InnoDB): wpot_osefirewall_backupath - will restore as: wp_osefirewall_backupath
+0048.493 () Search and replacing table: wp_osefirewall_backupath: rows: 0
+0048.493 () Processing table (InnoDB): wpot_osefirewall_basicrules - will restore as: wp_osefirewall_basicrules
+0048.504 () Search and replacing table: wp_osefirewall_basicrules: rows: 0
+0048.505 () Processing table (InnoDB): wpot_osefirewall_bkfiles - will restore as: wp_osefirewall_bkfiles
+0048.515 () Search and replacing table: wp_osefirewall_bkfiles: rows: 0
+0048.515 () Processing table (InnoDB): wpot_osefirewall_detattacktype - will restore as: wp_osefirewall_detattacktype
+0048.530 () Search and replacing table: wp_osefirewall_detattacktype: rows: 0
+0048.530 () Processing table (InnoDB): wpot_osefirewall_detcontdetail - will restore as: wp_osefirewall_detcontdetail
+0048.545 () Search and replacing table: wp_osefirewall_detcontdetail: rows: 0
+0048.545 () Processing table (InnoDB): wpot_osefirewall_detcontent - will restore as: wp_osefirewall_detcontent
+0048.569 () Search and replacing table: wp_osefirewall_detcontent: rows: 0
+0048.570 () Processing table (InnoDB): wpot_osefirewall_detected - will restore as: wp_osefirewall_detected
+0048.589 () Search and replacing table: wp_osefirewall_detected: rows: 0
+0048.589 () Processing table (InnoDB): wpot_osefirewall_domains - will restore as: wp_osefirewall_domains
+0048.605 () Search and replacing table: wp_osefirewall_domains: rows: 0
+0048.605 () Processing table (InnoDB): wpot_osefirewall_files - will restore as: wp_osefirewall_files
+0048.619 () Search and replacing table: wp_osefirewall_files: rows: 0
+0048.619 () Processing table (InnoDB): wpot_osefirewall_fileuploadext - will restore as: wp_osefirewall_fileuploadext
+0048.655 () Search and replacing table: wp_osefirewall_fileuploadext: rows: 183
+0048.670 () Processing table (InnoDB): wpot_osefirewall_fileuploadlog - will restore as: wp_osefirewall_fileuploadlog
+0048.687 () Search and replacing table: wp_osefirewall_fileuploadlog: rows: 0
+0048.687 () Processing table (InnoDB): wpot_osefirewall_gitlog - will restore as: wp_osefirewall_gitlog
+0048.697 () Search and replacing table: wp_osefirewall_gitlog: rows: 0
+0048.697 () Processing table (InnoDB): wpot_osefirewall_iptable - will restore as: wp_osefirewall_iptable
+0048.708 () Search and replacing table: wp_osefirewall_iptable: rows: 0
+0048.708 () Processing table (InnoDB): wpot_osefirewall_iptable_tmp - will restore as: wp_osefirewall_iptable_tmp
+0048.721 () Search and replacing table: wp_osefirewall_iptable_tmp: rows: 0
+0048.722 () Processing table (InnoDB): wpot_osefirewall_logs - will restore as: wp_osefirewall_logs
+0048.736 () Search and replacing table: wp_osefirewall_logs: rows: 0
+0048.736 () Processing table (InnoDB): wpot_osefirewall_malware - will restore as: wp_osefirewall_malware
+0048.754 () Search and replacing table: wp_osefirewall_malware: rows: 0
+0048.754 () Processing table (InnoDB): wpot_osefirewall_pages - will restore as: wp_osefirewall_pages
+0048.767 () Search and replacing table: wp_osefirewall_pages: rows: 0
+0048.768 () Processing table (InnoDB): wpot_osefirewall_referers - will restore as: wp_osefirewall_referers
+0048.781 () Search and replacing table: wp_osefirewall_referers: rows: 0
+0048.781 () Processing table (InnoDB): wpot_osefirewall_scanhist - will restore as: wp_osefirewall_scanhist
+0048.792 () Database queries processed: 500 in 48.64 seconds
+0048.795 () Search and replacing table: wp_osefirewall_scanhist: rows: 0
+0048.795 () Processing table (InnoDB): wpot_osefirewall_sfschecked - will restore as: wp_osefirewall_sfschecked
+0048.808 () Search and replacing table: wp_osefirewall_sfschecked: rows: 0
+0048.808 () Processing table (InnoDB): wpot_osefirewall_updateLog - will restore as: wp_osefirewall_updateLog
+0048.820 () Search and replacing table: wp_osefirewall_updateLog: rows: 0
+0048.820 () Processing table (InnoDB): wpot_osefirewall_vars - will restore as: wp_osefirewall_vars
+0048.832 () Search and replacing table: wp_osefirewall_vars: rows: 0
+0048.832 () Processing table (InnoDB): wpot_osefirewall_versions - will restore as: wp_osefirewall_versions
+0048.844 () Search and replacing table: wp_osefirewall_versions: rows: 0
+0048.844 () Processing table (InnoDB): wpot_osefirewall_virusVersion - will restore as: wp_osefirewall_virusVersion
+0048.856 () Search and replacing table: wp_osefirewall_virusVersion: rows: 0
+0048.856 () Processing table (InnoDB): wpot_osefirewall_vlscanner - will restore as: wp_osefirewall_vlscanner
+0048.869 () Search and replacing table: wp_osefirewall_vlscanner: rows: 0
+0048.869 () Processing table (InnoDB): wpot_osefirewall_vshash - will restore as: wp_osefirewall_vshash
+0048.884 () Search and replacing table: wp_osefirewall_vshash: rows: 0
+0048.884 () Processing table (InnoDB): wpot_osefirewall_vspatterns - will restore as: wp_osefirewall_vspatterns
+0048.897 () Search and replacing table: wp_osefirewall_vspatterns: rows: 0
+0048.897 () Processing table (InnoDB): wpot_osefirewall_vstypes - will restore as: wp_osefirewall_vstypes
+0048.908 () Search and replacing table: wp_osefirewall_vstypes: rows: 0
+0048.908 () Processing table (InnoDB): wpot_pmxi_files - will restore as: wp_pmxi_files
+0048.924 () Search and replacing table: wp_pmxi_files: rows: 2
+0048.924 () Processing table (InnoDB): wpot_pmxi_history - will restore as: wp_pmxi_history
+0048.940 () Search and replacing table: wp_pmxi_history: rows: 2
+0048.941 () Processing table (InnoDB): wpot_pmxi_imports - will restore as: wp_pmxi_imports
+0048.963 () Search and replacing table: wp_pmxi_imports: rows: 2
+0048.970 () Processing table (InnoDB): wpot_pmxi_posts - will restore as: wp_pmxi_posts
+0048.986 () Search and replacing table: wp_pmxi_posts: rows: 1
+0048.986 () Processing table (InnoDB): wpot_pmxi_templates - will restore as: wp_pmxi_templates
+0049.012 () Search and replacing table: wp_pmxi_templates: rows: 2
+0049.022 () Processing table (InnoDB): wpot_relevanssi - will restore as: wp_relevanssi
+0051.319 () Skipping this table: data in this table (wp_relevanssi) should not be search/replaced
+0051.320 () Processing table (InnoDB): wpot_relevanssi_log - will restore as: wp_relevanssi_log
+0051.332 () Skipping this table: data in this table (wp_relevanssi_log) should not be search/replaced
+0051.332 () Processing table (InnoDB): wpot_relevanssi_stopwords - will restore as: wp_relevanssi_stopwords
+0051.383 () Search and replacing table: wp_relevanssi_stopwords: rows: 317
+0051.397 () Processing table (InnoDB): wpot_revslider_css - will restore as: wp_revslider_css
+0051.445 () Search and replacing table: wp_revslider_css: rows: 109
+0051.492 () Processing table (InnoDB): wpot_revslider_layer_animations - will restore as: wp_revslider_layer_animations
+0051.505 () Search and replacing table: wp_revslider_layer_animations: rows: 1
+0051.506 () Processing table (InnoDB): wpot_revslider_navigations - will restore as: wp_revslider_navigations
+0051.516 () Search and replacing table: wp_revslider_navigations: rows: 0
+0051.517 () Processing table (InnoDB): wpot_revslider_sliders - will restore as: wp_revslider_sliders
+0051.529 () Search and replacing table: wp_revslider_sliders: rows: 2
+0051.533 () Processing table (InnoDB): wpot_revslider_slides - will restore as: wp_revslider_slides
+0051.566 () Search and replacing table: wp_revslider_slides: rows: 5
+0051.633 () Processing table (InnoDB): wpot_revslider_static_slides - will restore as: wp_revslider_static_slides
+0051.648 () Search and replacing table: wp_revslider_static_slides: rows: 0
+0051.648 () Processing table (InnoDB): wpot_simple_login_log - will restore as: wp_simple_login_log
+0052.031 () Search and replacing table: wp_simple_login_log: rows: 2334
+0052.398 () Processing table (InnoDB): wpot_smconnector_failed_login - will restore as: wp_smconnector_failed_login
+0052.411 () Search and replacing table: wp_smconnector_failed_login: rows: 0
+0052.411 () Processing table (InnoDB): wpot_smconnector_session_keys - will restore as: wp_smconnector_session_keys
+0052.424 () Search and replacing table: wp_smconnector_session_keys: rows: 0
+0052.424 () Processing table (InnoDB): wpot_taxonomymeta - will restore as: wp_taxonomymeta
+0052.450 () Search and replacing table: wp_taxonomymeta: rows: 58
+0052.456 () Processing table (MyISAM): wpot_tinvwl_items - will restore as: wp_tinvwl_items
+0052.493 () Search and replacing table: wp_tinvwl_items: rows: 248
+0052.527 () Processing table (MyISAM): wpot_tinvwl_lists - will restore as: wp_tinvwl_lists
+0052.542 () Search and replacing table: wp_tinvwl_lists: rows: 136
+0052.552 () Processing table (InnoDB): wpot_ultimate_csv_importer_log_values - will restore as: wp_ultimate_csv_importer_log_values
+0052.565 () Search and replacing table: wp_ultimate_csv_importer_log_values: rows: 0
+0052.565 () Processing table (InnoDB): wpot_ultimate_csv_importer_manageshortcodes - will restore as: wp_ultimate_csv_importer_manageshortcodes
+0052.577 () Search and replacing table: wp_ultimate_csv_importer_manageshortcodes: rows: 0
+0052.577 () Processing table (InnoDB): wpot_ultimate_csv_importer_shortcodes_statusrel - will restore as: wp_ultimate_csv_importer_shortcodes_statusrel
+0052.588 () Search and replacing table: wp_ultimate_csv_importer_shortcodes_statusrel: rows: 0
+0052.589 () Processing table (InnoDB): wpot_vtprd_purchase_log - will restore as: wp_vtprd_purchase_log
+0052.604 () Search and replacing table: wp_vtprd_purchase_log: rows: 0
+0052.604 () Processing table (InnoDB): wpot_vtprd_purchase_log_product - will restore as: wp_vtprd_purchase_log_product
+0052.619 () Search and replacing table: wp_vtprd_purchase_log_product: rows: 0
+0052.619 () Processing table (InnoDB): wpot_vtprd_purchase_log_product_rule - will restore as: wp_vtprd_purchase_log_product_rule
+0052.634 () Search and replacing table: wp_vtprd_purchase_log_product_rule: rows: 0
+0052.635 () Processing table (MyISAM): wpot_wc_download_log - will restore as: wp_wc_download_log
+0052.640 () Search and replacing table: wp_wc_download_log: rows: 0
+0052.641 () Processing table (MyISAM): wpot_wc_webhooks - will restore as: wp_wc_webhooks
+0052.645 () Search and replacing table: wp_wc_webhooks: rows: 0
+0052.645 () Processing table (InnoDB): wpot_wfBadLeechers - will restore as: wp_wfBadLeechers
+0052.656 () Search and replacing table: wp_wfBadLeechers: rows: 0
+0052.656 () Processing table (InnoDB): wpot_wfBlockedCommentLog - will restore as: wp_wfBlockedCommentLog
+0052.668 () Search and replacing table: wp_wfBlockedCommentLog: rows: 0
+0052.668 () Processing table (InnoDB): wpot_wfBlockedIPLog - will restore as: wp_wfBlockedIPLog
+0052.681 () Search and replacing table: wp_wfBlockedIPLog: rows: 14
+0052.683 () Processing table (InnoDB): wpot_wfBlocks - will restore as: wp_wfBlocks
+0052.696 () Search and replacing table: wp_wfBlocks: rows: 4
+0052.697 () Processing table (InnoDB): wpot_wfBlocksAdv - will restore as: wp_wfBlocksAdv
+0052.711 () Search and replacing table: wp_wfBlocksAdv: rows: 0
+0052.711 () Processing table (InnoDB): wpot_wfConfig - will restore as: wp_wfConfig
+0052.785 () Search and replacing table: wp_wfConfig: rows: 205
+0052.799 () Processing table (InnoDB): wpot_wfCrawlers - will restore as: wp_wfCrawlers
+0052.810 () Search and replacing table: wp_wfCrawlers: rows: 0
+0052.810 () Processing table (InnoDB): wpot_wfFileMods - will restore as: wp_wfFileMods
+0053.547 () Search and replacing table: wp_wfFileMods: rows: 5468
+0054.177 () Searching and replacing reached row: 5000
+0054.223 () Processing table (InnoDB): wpot_wfHits - will restore as: wp_wfHits
+0056.143 () Skipping this table: data in this table (wp_wfHits) should not be search/replaced
+0056.143 () Processing table (InnoDB): wpot_wfHoover - will restore as: wp_wfHoover
+0056.159 () Search and replacing table: wp_wfHoover: rows: 0
+0056.159 () Processing table (InnoDB): wpot_wfIssues - will restore as: wp_wfIssues
+0056.178 () Search and replacing table: wp_wfIssues: rows: 21
+0056.185 () Processing table (InnoDB): wpot_wfKnownFileList - will restore as: wp_wfKnownFileList
+0057.675 () Search and replacing table: wp_wfKnownFileList: rows: 16656
+0057.928 () Searching and replacing reached row: 5000
+0058.150 () Searching and replacing reached row: 10000
+0058.360 () Searching and replacing reached row: 15000
+0058.435 () Processing table (InnoDB): wpot_wfLeechers - will restore as: wp_wfLeechers
+0058.451 () Search and replacing table: wp_wfLeechers: rows: 0
+0058.451 () Processing table (InnoDB): wpot_wfLockedOut - will restore as: wp_wfLockedOut
+0058.469 () Search and replacing table: wp_wfLockedOut: rows: 13
+0058.471 () Processing table (InnoDB): wpot_wfLocs - will restore as: wp_wfLocs
+0058.500 () Search and replacing table: wp_wfLocs: rows: 37
+0058.505 () Processing table (InnoDB): wpot_wfLogins - will restore as: wp_wfLogins
+0058.549 () Search and replacing table: wp_wfLogins: rows: 227
+0058.575 () Processing table (InnoDB): wpot_wfNet404s - will restore as: wp_wfNet404s
+0058.588 () Search and replacing table: wp_wfNet404s: rows: 0
+0058.589 () Processing table (InnoDB): wpot_wfNotifications - will restore as: wp_wfNotifications
+0058.603 () Search and replacing table: wp_wfNotifications: rows: 11
+0058.604 () Processing table (InnoDB): wpot_wfPendingIssues - will restore as: wp_wfPendingIssues
+0058.614 () Search and replacing table: wp_wfPendingIssues: rows: 0
+0058.614 () Processing table (InnoDB): wpot_wfReverseCache - will restore as: wp_wfReverseCache
+0058.634 () Search and replacing table: wp_wfReverseCache: rows: 24
+0058.637 () Processing table (InnoDB): wpot_wfSNIPCache - will restore as: wp_wfSNIPCache
+0058.653 () Search and replacing table: wp_wfSNIPCache: rows: 0
+0058.653 () Processing table (InnoDB): wpot_wfScanners - will restore as: wp_wfScanners
+0058.665 () Search and replacing table: wp_wfScanners: rows: 0
+0058.665 () Processing table (InnoDB): wpot_wfStatus - will restore as: wp_wfStatus
+0058.818 () Search and replacing table: wp_wfStatus: rows: 985
+0058.886 () Processing table (InnoDB): wpot_wfThrottleLog - will restore as: wp_wfThrottleLog
+0058.903 () Search and replacing table: wp_wfThrottleLog: rows: 0
+0058.903 () Processing table (InnoDB): wpot_wfVulnScanners - will restore as: wp_wfVulnScanners
+0058.916 () Search and replacing table: wp_wfVulnScanners: rows: 0
+0058.916 () Processing table (InnoDB): wpot_woocommerce_api_keys - will restore as: wp_woocommerce_api_keys
+0058.933 () Search and replacing table: wp_woocommerce_api_keys: rows: 0
+0058.933 () Processing table (InnoDB): wpot_woocommerce_attribute_taxonomies - will restore as: wp_woocommerce_attribute_taxonomies
+0058.949 () Search and replacing table: wp_woocommerce_attribute_taxonomies: rows: 2
+0058.950 () Processing table (InnoDB): wpot_woocommerce_downloadable_product_permissions - will restore as: wp_woocommerce_downloadable_product_permissions
+0058.965 () Search and replacing table: wp_woocommerce_downloadable_product_permissions: rows: 0
+0058.965 () Processing table (InnoDB): wpot_woocommerce_log - will restore as: wp_woocommerce_log
+0058.979 () Search and replacing table: wp_woocommerce_log: rows: 0
+0058.979 () Processing table (InnoDB): wpot_woocommerce_order_items - will restore as: wp_woocommerce_order_items
+0059.134 () Skipping this table: data in this table (wp_woocommerce_order_items) should not be search/replaced
+0059.134 () Processing table (InnoDB): wpot_woocommerce_payment_tokens - will restore as: wp_woocommerce_payment_tokens
+0059.150 () Search and replacing table: wp_woocommerce_payment_tokens: rows: 0
+0059.150 () Processing table (InnoDB): wpot_woocommerce_sessions - will restore as: wp_woocommerce_sessions
+0059.167 () Skipping this table: data in this table (wp_woocommerce_sessions) should not be search/replaced
+0059.167 () Processing table (InnoDB): wpot_woocommerce_shipping_zone_locations - will restore as: wp_woocommerce_shipping_zone_locations
+0059.184 () Search and replacing table: wp_woocommerce_shipping_zone_locations: rows: 1
+0059.185 () Processing table (InnoDB): wpot_woocommerce_shipping_zone_methods - will restore as: wp_woocommerce_shipping_zone_methods
+0059.198 () Search and replacing table: wp_woocommerce_shipping_zone_methods: rows: 1
+0059.199 () Processing table (InnoDB): wpot_woocommerce_shipping_zones - will restore as: wp_woocommerce_shipping_zones
+0059.211 () Search and replacing table: wp_woocommerce_shipping_zones: rows: 1
+0059.211 () Processing table (InnoDB): wpot_woocommerce_tax_rate_locations - will restore as: wp_woocommerce_tax_rate_locations
+0059.224 () Search and replacing table: wp_woocommerce_tax_rate_locations: rows: 0
+0059.224 () Processing table (InnoDB): wpot_woocommerce_tax_rates - will restore as: wp_woocommerce_tax_rates
+0059.247 () Search and replacing table: wp_woocommerce_tax_rates: rows: 2
+0059.248 () Processing table (InnoDB): wpot_wpfront_ure_login_redirect - will restore as: wp_wpfront_ure_login_redirect
+0059.263 () Search and replacing table: wp_wpfront_ure_login_redirect: rows: 0
+0059.263 () Processing table (InnoDB): wpot_wpfront_ure_options - will restore as: wp_wpfront_ure_options
+0059.281 () Search and replacing table: wp_wpfront_ure_options: rows: 6
+0059.283 () Processing table (InnoDB): wpot_wpi_object_log - will restore as: wp_wpi_object_log
+0059.303 () Search and replacing table: wp_wpi_object_log: rows: 0
+0059.304 () Processing table (InnoDB): wpot_wpio_images - will restore as: wp_wpio_images
+0059.319 () Database queries processed: 750 in 59.17 seconds
+0059.322 () Search and replacing table: wp_wpio_images: rows: 11
+0059.324 () Processing table (InnoDB): wpot_wpio_listimages - will restore as: wp_wpio_listimages
+0060.459 () Search and replacing table: wp_wpio_listimages: rows: 10404
+0060.995 () Searching and replacing reached row: 5000
+0061.492 () Searching and replacing reached row: 10000
+0061.524 () Processing table (InnoDB): wpot_wpio_queue - will restore as: wp_wpio_queue
+0061.618 () Search and replacing table: wp_wpio_queue: rows: 558
+0061.643 () Processing table (InnoDB): wpot_wsal_metadata - will restore as: wp_wsal_metadata
+0064.494 () Search and replacing table: wp_wsal_metadata: rows: 31796
+0065.879 () Searching and replacing reached row: 5000
+0067.064 () Searching and replacing reached row: 10000
+0068.346 () Searching and replacing reached row: 15000
+0069.548 () Searching and replacing reached row: 20000
+0071.114 () Searching and replacing reached row: 25000
+0072.407 () Searching and replacing reached row: 30000
+0072.974 () Processing table (InnoDB): wpot_wsal_occurrences - will restore as: wp_wsal_occurrences
+0073.430 () Search and replacing table: wp_wsal_occurrences: rows: 5039
+0073.871 () Searching and replacing reached row: 5000
+0073.876 () Processing table (InnoDB): wpot_wsal_options - will restore as: wp_wsal_options
+0073.901 () Search and replacing table: wp_wsal_options: rows: 21
+0073.905 () Processing table (InnoDB): wpot_wusp_user_pricing_mapping - will restore as: wp_wusp_user_pricing_mapping
+0073.939 () Search and replacing table: wp_wusp_user_pricing_mapping: rows: 129
+0073.947 () Processing table (InnoDB): wpot_wysija_campaign - will restore as: wp_wysija_campaign
+0073.959 () Search and replacing table: wp_wysija_campaign: rows: 1
+0073.959 () Processing table (InnoDB): wpot_wysija_campaign_list - will restore as: wp_wysija_campaign_list
+0073.970 () Search and replacing table: wp_wysija_campaign_list: rows: 0
+0073.970 () Processing table (InnoDB): wpot_wysija_custom_field - will restore as: wp_wysija_custom_field
+0073.988 () Search and replacing table: wp_wysija_custom_field: rows: 0
+0073.988 () Processing table (InnoDB): wpot_wysija_email - will restore as: wp_wysija_email
+0074.003 () Search and replacing table: wp_wysija_email: rows: 2
+0074.004 () Processing table (InnoDB): wpot_wysija_email_user_stat - will restore as: wp_wysija_email_user_stat
+0074.014 () Skipping this table: data in this table (wp_wysija_email_user_stat) should not be search/replaced
+0074.015 () Processing table (InnoDB): wpot_wysija_email_user_url - will restore as: wp_wysija_email_user_url
+0074.026 () Search and replacing table: wp_wysija_email_user_url: rows: 0
+0074.026 () Processing table (InnoDB): wpot_wysija_form - will restore as: wp_wysija_form
+0074.038 () Search and replacing table: wp_wysija_form: rows: 1
+0074.039 () Processing table (InnoDB): wpot_wysija_list - will restore as: wp_wysija_list
+0074.052 () Search and replacing table: wp_wysija_list: rows: 2
+0074.052 () Processing table (InnoDB): wpot_wysija_queue - will restore as: wp_wysija_queue
+0074.064 () Search and replacing table: wp_wysija_queue: rows: 0
+0074.064 () Processing table (InnoDB): wpot_wysija_url - will restore as: wp_wysija_url
+0074.074 () Search and replacing table: wp_wysija_url: rows: 0
+0074.074 () Processing table (InnoDB): wpot_wysija_url_mail - will restore as: wp_wysija_url_mail
+0074.084 () Search and replacing table: wp_wysija_url_mail: rows: 0
+0074.084 () Processing table (InnoDB): wpot_wysija_user - will restore as: wp_wysija_user
+0074.101 () Search and replacing table: wp_wysija_user: rows: 32
+0074.106 () Processing table (InnoDB): wpot_wysija_user_field - will restore as: wp_wysija_user_field
+0074.119 () Search and replacing table: wp_wysija_user_field: rows: 2
+0074.120 () Processing table (InnoDB): wpot_wysija_user_history - will restore as: wp_wysija_user_history
+0074.130 () Search and replacing table: wp_wysija_user_history: rows: 0
+0074.130 () Processing table (InnoDB): wpot_wysija_user_list - will restore as: wp_wysija_user_list
+0074.143 () Search and replacing table: wp_wysija_user_list: rows: 33
+0074.146 () Processing table (InnoDB): wpot_xcloner_scheduler - will restore as: wp_xcloner_scheduler
+0074.157 () Search and replacing table: wp_xcloner_scheduler: rows: 0
+0074.157 () Processing table (InnoDB): wpot_yith_wcwl - will restore as: wp_yith_wcwl
+0074.172 () Search and replacing table: wp_yith_wcwl: rows: 3
+0074.172 () Processing table (InnoDB): wpot_yith_wcwl_lists - will restore as: wp_yith_wcwl_lists
+0074.189 () Search and replacing table: wp_yith_wcwl_lists: rows: 32
+0074.191 () Processing table (InnoDB): wpot_zara4_exclude_from_bulk_compression_r1 - will restore as: wp_zara4_exclude_from_bulk_compression_r1
+0074.202 () Search and replacing table: wp_zara4_exclude_from_bulk_compression_r1: rows: 0
+0074.202 () Processing table (InnoDB): wpot_zara4_file_compression_metadata_r1 - will restore as: wp_zara4_file_compression_metadata_r1
+0074.300 () Unlocking database and leaving maintenance mode
+0074.300 () Disabling Maintenance mode&#8230;
+0074.302 () Search and replacing table: wp_zara4_file_compression_metadata_r1: rows: 741
+0074.379 () Finished: lines processed: 866 in 74.23 seconds
+0074.383 () Cleaning up rubbish...
+0074.384 () Begin search and replace (updraftplus_restored_db)
+0074.384 () [Database-replace-site-url] Database: search and replace site URL
+0074.385 () Restored pre-migration site ID for this installation
+0074.409 () Database search and replace: replace https://tfsuk.roswellit.solutions in backup dump with https://www.tfs.direct
+0074.409 () Database search and replace: replace http://tfsuk.roswellit.solutions in backup dump with https://www.tfs.direct
+0074.410 () Search and replacing table: wp_aws_index: already done
+0074.410 () Search and replacing table: wp_bad_behavior: already done
+0074.410 () Search and replacing table: wp_commentmeta: already done
+0074.410 () Search and replacing table: wp_comments: already done
+0074.410 () Search and replacing table: wp_competition_entries: already done
+0074.410 () Search and replacing table: wp_competition_entries_meta: already done
+0074.410 () Search and replacing table: wp_email_log: already done
+0074.410 () Search and replacing table: wp_ewwwio_images: already done
+0074.410 () Search and replacing table: wp_fpropdf_tmp: already done
+0074.410 () Search and replacing table: wp_frm_fields: already done
+0074.410 () Search and replacing table: wp_frm_forms: already done
+0074.410 () Search and replacing table: wp_frm_item_metas: already done
+0074.410 () Search and replacing table: wp_frm_items: already done
+0074.410 () Search and replacing table: wp_ip2location_country_blocker_log: already done
+0074.411 () Search and replacing table: wp_links: already done
+0074.411 () Search and replacing table: wp_litespeed_optimizer: already done
+0074.411 () Search and replacing table: wp_micro_revisions: already done
+0074.411 () Search and replacing table: wp_nf3_action_meta: already done
+0074.411 () Search and replacing table: wp_nf3_actions: already done
+0074.411 () Search and replacing table: wp_nf3_field_meta: already done
+0074.411 () Search and replacing table: wp_nf3_fields: already done
+0074.411 () Search and replacing table: wp_nf3_form_meta: already done
+0074.411 () Search and replacing table: wp_nf3_forms: already done
+0074.411 () Search and replacing table: wp_nf3_object_meta: already done
+0074.411 () Search and replacing table: wp_nf3_objects: already done
+0074.411 () Search and replacing table: wp_nf3_relationships: already done
+0074.411 () Search and replacing table: wp_omega_index_status: already done
+0074.411 () Search and replacing table: wp_options: already done
+0074.411 () Search and replacing table: wp_ose_app_admin: already done
+0074.411 () Search and replacing table: wp_ose_app_adminrecemail: already done
+0074.411 () Search and replacing table: wp_ose_app_email: already done
+0074.411 () Search and replacing table: wp_ose_app_geoip: already done
+0074.411 () Search and replacing table: wp_ose_secConfig: already done
+0074.412 () Search and replacing table: wp_osefirewall_acl: already done
+0074.412 () Search and replacing table: wp_osefirewall_adminemails: already done
+0074.412 () Search and replacing table: wp_osefirewall_advancepatterns: already done
+0074.412 () Search and replacing table: wp_osefirewall_aiscan: already done
+0074.412 () Search and replacing table: wp_osefirewall_attacktype: already done
+0074.412 () Search and replacing table: wp_osefirewall_backup: already done
+0074.412 () Search and replacing table: wp_osefirewall_backupath: already done
+0074.412 () Search and replacing table: wp_osefirewall_basicrules: already done
+0074.412 () Search and replacing table: wp_osefirewall_bkfiles: already done
+0074.412 () Search and replacing table: wp_osefirewall_detattacktype: already done
+0074.412 () Search and replacing table: wp_osefirewall_detcontdetail: already done
+0074.412 () Search and replacing table: wp_osefirewall_detcontent: already done
+0074.412 () Search and replacing table: wp_osefirewall_detected: already done
+0074.412 () Search and replacing table: wp_osefirewall_domains: already done
+0074.412 () Search and replacing table: wp_osefirewall_files: already done
+0074.412 () Search and replacing table: wp_osefirewall_fileuploadext: already done
+0074.412 () Search and replacing table: wp_osefirewall_fileuploadlog: already done
+0074.412 () Search and replacing table: wp_osefirewall_gitlog: already done
+0074.412 () Search and replacing table: wp_osefirewall_iptable: already done
+0074.412 () Search and replacing table: wp_osefirewall_iptable_tmp: already done
+0074.412 () Search and replacing table: wp_osefirewall_logs: already done
+0074.413 () Search and replacing table: wp_osefirewall_malware: already done
+0074.413 () Search and replacing table: wp_osefirewall_pages: already done
+0074.413 () Search and replacing table: wp_osefirewall_referers: already done
+0074.413 () Search and replacing table: wp_osefirewall_scanhist: already done
+0074.413 () Search and replacing table: wp_osefirewall_sfschecked: already done
+0074.413 () Search and replacing table: wp_osefirewall_updateLog: already done
+0074.413 () Search and replacing table: wp_osefirewall_vars: already done
+0074.413 () Search and replacing table: wp_osefirewall_versions: already done
+0074.413 () Search and replacing table: wp_osefirewall_virusVersion: already done
+0074.413 () Search and replacing table: wp_osefirewall_vlscanner: already done
+0074.413 () Search and replacing table: wp_osefirewall_vshash: already done
+0074.413 () Search and replacing table: wp_osefirewall_vspatterns: already done
+0074.413 () Search and replacing table: wp_osefirewall_vstypes: already done
+0074.413 () Search and replacing table: wp_pmxi_files: already done
+0074.413 () Search and replacing table: wp_pmxi_history: already done
+0074.413 () Search and replacing table: wp_pmxi_imports: already done
+0074.413 () Search and replacing table: wp_pmxi_posts: already done
+0074.413 () Search and replacing table: wp_pmxi_templates: already done
+0074.413 () Search and replacing table: wp_postmeta: already done
+0074.413 () Search and replacing table: wp_posts: already done
+0074.413 () Search and replacing table: wp_relevanssi: already done
+0074.413 () Search and replacing table: wp_relevanssi_log: already done
+0074.414 () Search and replacing table: wp_relevanssi_stopwords: already done
+0074.414 () Search and replacing table: wp_revslider_css: already done
+0074.414 () Search and replacing table: wp_revslider_layer_animations: already done
+0074.414 () Search and replacing table: wp_revslider_navigations: already done
+0074.414 () Search and replacing table: wp_revslider_sliders: already done
+0074.414 () Search and replacing table: wp_revslider_slides: already done
+0074.414 () Search and replacing table: wp_revslider_static_slides: already done
+0074.414 () Search and replacing table: wp_simple_login_log: already done
+0074.414 () Search and replacing table: wp_smconnector_failed_login: already done
+0074.414 () Search and replacing table: wp_smconnector_session_keys: already done
+0074.414 () Search and replacing table: wp_snippets: already done
+0074.414 () Search and replacing table: wp_taxonomymeta: already done
+0074.414 () Search and replacing table: wp_term_relationships: already done
+0074.414 () Search and replacing table: wp_term_taxonomy: already done
+0074.414 () Search and replacing table: wp_termmeta: already done
+0074.414 () Search and replacing table: wp_terms: already done
+0074.414 () Search and replacing table: wp_tinvwl_items: already done
+0074.414 () Search and replacing table: wp_tinvwl_lists: already done
+0074.414 () Search and replacing table: wp_ultimate_csv_importer_log_values: already done
+0074.414 () Search and replacing table: wp_ultimate_csv_importer_manageshortcodes: already done
+0074.414 () Search and replacing table: wp_ultimate_csv_importer_shortcodes_statusrel: already done
+0074.414 () Search and replacing table: wp_usermeta: already done
+0074.415 () Search and replacing table: wp_users: already done
+0074.415 () Search and replacing table: wp_vtprd_purchase_log: already done
+0074.415 () Search and replacing table: wp_vtprd_purchase_log_product: already done
+0074.415 () Search and replacing table: wp_vtprd_purchase_log_product_rule: already done
+0074.415 () Search and replacing table: wp_wc_download_log: already done
+0074.415 () Search and replacing table: wp_wc_webhooks: already done
+0074.415 () Search and replacing table: wp_wfBadLeechers: already done
+0074.415 () Search and replacing table: wp_wfBlockedCommentLog: already done
+0074.415 () Search and replacing table: wp_wfBlockedIPLog: already done
+0074.415 () Search and replacing table: wp_wfBlocks: already done
+0074.415 () Search and replacing table: wp_wfBlocksAdv: already done
+0074.415 () Search and replacing table: wp_wfConfig: already done
+0074.415 () Search and replacing table: wp_wfCrawlers: already done
+0074.415 () Search and replacing table: wp_wfFileMods: already done
+0074.415 () Search and replacing table: wp_wfHits: already done
+0074.415 () Search and replacing table: wp_wfHoover: already done
+0074.415 () Search and replacing table: wp_wfIssues: already done
+0074.415 () Search and replacing table: wp_wfKnownFileList: already done
+0074.415 () Search and replacing table: wp_wfLeechers: already done
+0074.415 () Search and replacing table: wp_wfLockedOut: already done
+0074.415 () Search and replacing table: wp_wfLocs: already done
+0074.415 () Search and replacing table: wp_wfLogins: already done
+0074.416 () Search and replacing table: wp_wfNet404s: already done
+0074.416 () Search and replacing table: wp_wfNotifications: already done
+0074.416 () Search and replacing table: wp_wfPendingIssues: already done
+0074.416 () Search and replacing table: wp_wfReverseCache: already done
+0074.416 () Search and replacing table: wp_wfSNIPCache: already done
+0074.416 () Search and replacing table: wp_wfScanners: already done
+0074.416 () Search and replacing table: wp_wfStatus: already done
+0074.416 () Search and replacing table: wp_wfThrottleLog: already done
+0074.416 () Search and replacing table: wp_wfVulnScanners: already done
+0074.416 () Search and replacing table: wp_woocommerce_api_keys: already done
+0074.416 () Search and replacing table: wp_woocommerce_attribute_taxonomies: already done
+0074.416 () Search and replacing table: wp_woocommerce_downloadable_product_permissions: already done
+0074.416 () Search and replacing table: wp_woocommerce_log: already done
+0074.416 () Search and replacing table: wp_woocommerce_order_itemmeta: already done
+0074.416 () Search and replacing table: wp_woocommerce_order_items: already done
+0074.416 () Search and replacing table: wp_woocommerce_payment_tokenmeta: already done
+0074.416 () Search and replacing table: wp_woocommerce_payment_tokens: already done
+0074.416 () Search and replacing table: wp_woocommerce_sessions: already done
+0074.416 () Search and replacing table: wp_woocommerce_shipping_zone_locations: already done
+0074.416 () Search and replacing table: wp_woocommerce_shipping_zone_methods: already done
+0074.416 () Search and replacing table: wp_woocommerce_shipping_zones: already done
+0074.416 () Search and replacing table: wp_woocommerce_tax_rate_locations: already done
+0074.416 () Search and replacing table: wp_woocommerce_tax_rates: already done
+0074.417 () Search and replacing table: wp_wpfront_ure_login_redirect: already done
+0074.417 () Search and replacing table: wp_wpfront_ure_options: already done
+0074.417 () Search and replacing table: wp_wpi_object_log: already done
+0074.417 () Search and replacing table: wp_wpio_images: already done
+0074.417 () Search and replacing table: wp_wpio_listimages: already done
+0074.417 () Search and replacing table: wp_wpio_queue: already done
+0074.417 () Search and replacing table: wp_wsal_metadata: already done
+0074.417 () Search and replacing table: wp_wsal_occurrences: already done
+0074.417 () Search and replacing table: wp_wsal_options: already done
+0074.417 () Search and replacing table: wp_wusp_user_pricing_mapping: already done
+0074.417 () Search and replacing table: wp_wysija_campaign: already done
+0074.417 () Search and replacing table: wp_wysija_campaign_list: already done
+0074.417 () Search and replacing table: wp_wysija_custom_field: already done
+0074.417 () Search and replacing table: wp_wysija_email: already done
+0074.417 () Search and replacing table: wp_wysija_email_user_stat: already done
+0074.417 () Search and replacing table: wp_wysija_email_user_url: already done
+0074.417 () Search and replacing table: wp_wysija_form: already done
+0074.417 () Search and replacing table: wp_wysija_list: already done
+0074.417 () Search and replacing table: wp_wysija_queue: already done
+0074.418 () Search and replacing table: wp_wysija_url: already done
+0074.418 () Search and replacing table: wp_wysija_url_mail: already done
+0074.418 () Search and replacing table: wp_wysija_user: already done
+0074.418 () Search and replacing table: wp_wysija_user_field: already done
+0074.418 () Search and replacing table: wp_wysija_user_history: already done
+0074.418 () Search and replacing table: wp_wysija_user_list: already done
+0074.418 () Search and replacing table: wp_xcloner_scheduler: already done
+0074.418 () Search and replacing table: wp_yith_wcwl: already done
+0074.418 () Search and replacing table: wp_yith_wcwl_lists: already done
+0074.418 () Search and replacing table: wp_yoast_seo_links: already done
+0074.418 () Search and replacing table: wp_yoast_seo_meta: already done
+0074.418 () Search and replacing table: wp_zara4_exclude_from_bulk_compression_r1: already done
+0074.418 () Search and replacing table: wp_zara4_file_compression_metadata_r1: already done
+0074.429 () Entity: plugins
+0074.429 () restore_backup(backup_file=backup_2018-09-14-1736_tfsdirect_c786c9af4955-plugins.zip, type=plugins, info=a:2:{s:4:"path";s:40:"/home/tfs/public_html/wp-content/plugins";s:11:"description";s:7:"Plugins";}, last_one=)
+0074.429 () Unpacking backup... (backup_2018-09-14-1736_tfsdirect_c786c9af4955-plugins.zip, 25.2 Mb)
+0075.795 () Moving old data: filesystem method / updraft_dir is potentially possible
+0075.795 () Moving old data: can potentially use wp_filesystem method / -old
+0075.795 () Moving old data out of the way...
+0075.945 () Top-level entities being moved: index.php, updraftplus, akismet, hello.php, updraftplus.2.14.12.zip
+0075.950 () Moving unpacked backup into place...
+0076.355 () Top-level entities being moved: woocommerce-products-per-page, simple-woocommerce-favourites, really-simple-captcha, wp-force-ssl, svg-vector-icon-plugin, index.php, helios-solutions-woocommerce-hide-price-and-add-to-cart-button, wp-mail-smtp, invoice-gateway-for-woocommerce, coming-soon, price-by-user-role-for-woocommerce-pro, restrict-user-access, hide-price-until-login, wordfence, search-by-sku-for-woocommerce, theme-my-login, custom-bulkquick-edit, custom-field-bulk-editor, google-sitemap-plugin, woo-search-by-product-sku, Ultimate_VC_Addons, woocommerce-csvimport, wp-global-site-tag, nav-menu-roles, js_composer, wpfront-user-role-editor, wc-dynamic-pricing-and-discounts, woocommerce, wordpress-seo, privilege-menu, copy-menu, formidable, updraftplus, relevanssi, email-log, woo-checkout-field-editor-pro, wp-security-audit-log, woocommerce-google-analytics-integration, better-search-replace, disable-woocommerce-reviews, contact-form-7, woo-order-export-lite, contact-form-7-simple-recaptcha, yith-woocommerce-wishlist, wp-fastest-cache, advanced-custom-fields, formidable-pro, code-snippets, simple-login-log, ip2location-country-blocker, contact-form-7-honeypot, wherewithal, enhanced-e-commerce-for-woocommerce-store, codepress-admin-columns, user-role, woocommerce-role-pricing, ga-google-analytics, product-visibility-by-user-role-for-woocommerce-pro, woocommerce-role-based-price, blog-designer, post-smtp, easy-wp-smtp, ti-woocommerce-wishlist
+0076.372 () Cleaning up rubbish...
+0076.385 () restore_backup(backup_file=backup_2018-09-14-1736_tfsdirect_c786c9af4955-plugins2.zip, type=plugins, info=a:2:{s:4:"path";s:40:"/home/tfs/public_html/wp-content/plugins";s:11:"description";s:7:"Plugins";}, last_one=)
+0076.386 () Unpacking backup... (backup_2018-09-14-1736_tfsdirect_c786c9af4955-plugins2.zip, 23.7 Mb)
+0077.749 () Moving unpacked backup into place...
+0078.088 () Top-level entities being moved: svg-vector-icon-plugin, wp-mail-smtp, restrict-user-access, wordfence, theme-my-login, woocommerce, formidable, relevanssi, woo-checkout-field-editor-pro, contact-form-7, woo-order-export-lite, wp-fastest-cache, ip2location-country-blocker, codepress-admin-columns, ga-google-analytics, blog-designer, post-smtp, easy-wp-smtp, ti-woocommerce-wishlist
+0078.214 () Cleaning up rubbish...
+0078.227 () restore_backup(backup_file=backup_2018-09-14-1736_tfsdirect_c786c9af4955-plugins3.zip, type=plugins, info=a:2:{s:4:"path";s:40:"/home/tfs/public_html/wp-content/plugins";s:11:"description";s:7:"Plugins";}, last_one=)
+0078.227 () Unpacking backup... (backup_2018-09-14-1736_tfsdirect_c786c9af4955-plugins3.zip, 12 Mb)
+0078.984 () Moving unpacked backup into place...
+0079.174 () Top-level entities being moved: wordpress-seo, updraftplus, wp-security-audit-log, yith-woocommerce-wishlist, wp-fastest-cache
+0079.252 () Cleaning up rubbish...
+0079.264 () Entity: themes
+0079.264 () restore_backup(backup_file=backup_2018-09-14-1736_tfsdirect_c786c9af4955-themes.zip, type=themes, info=a:2:{s:4:"path";s:39:"/home/tfs/public_html/wp-content/themes";s:11:"description";s:6:"Themes";}, last_one=)
+0079.264 () Unpacking backup... (backup_2018-09-14-1736_tfsdirect_c786c9af4955-themes.zip, 23.2 Mb)
+0079.579 () Moving old data: filesystem method / updraft_dir is potentially possible
+0079.579 () Moving old data: can potentially use wp_filesystem method / -old
+0079.579 () Moving old data out of the way...
+0079.591 () Top-level entities being moved: index.php, twentysixteen, twentyseventeen, twentyfifteen
+0079.591 () Moving unpacked backup into place...
+0079.616 () Top-level entities being moved: index.php, twentysixteen, twentyseventeen, twentyfifteen, royal, royal.zip
+0079.617 () Cleaning up rubbish...
+0079.622 () restore_backup(backup_file=backup_2018-09-14-1736_tfsdirect_c786c9af4955-themes2.zip, type=themes, info=a:2:{s:4:"path";s:39:"/home/tfs/public_html/wp-content/themes";s:11:"description";s:6:"Themes";}, last_one=)
+0079.623 () Unpacking backup... (backup_2018-09-14-1736_tfsdirect_c786c9af4955-themes2.zip, 4.6 Mb)
+0079.755 () Moving unpacked backup into place...
+0079.781 () Top-level entities being moved: twentysixteen, twentyseventeen, twentyfifteen, royal
+0079.792 () Cleaning up rubbish...
+0079.798 () Entity: uploads
+0079.798 () restore_backup(backup_file=backup_2018-09-14-1736_tfsdirect_c786c9af4955-uploads.zip, type=uploads, info=a:2:{s:4:"path";s:40:"/home/tfs/public_html/wp-content/uploads";s:11:"description";s:7:"Uploads";}, last_one=)
+0079.798 () Unpacking backup... (backup_2018-09-14-1736_tfsdirect_c786c9af4955-uploads.zip, 49.3 Mb)
+0080.337 () Moving old data: filesystem method / updraft_dir is potentially possible
+0080.337 () Moving old data: can potentially use wp_filesystem method / -old
+0080.337 () Moving old data out of the way...
+0080.337 () Moving unpacked backup into place...
+0080.359 () Cleaning up rubbish...
+0080.364 () restore_backup(backup_file=backup_2018-09-14-1736_tfsdirect_c786c9af4955-uploads2.zip, type=uploads, info=a:2:{s:4:"path";s:40:"/home/tfs/public_html/wp-content/uploads";s:11:"description";s:7:"Uploads";}, last_one=)
+0080.364 () Unpacking backup... (backup_2018-09-14-1736_tfsdirect_c786c9af4955-uploads2.zip, 22.9 Mb)
+0080.677 () Moving unpacked backup into place...
+0080.721 () Cleaning up rubbish...
+0080.725 () restore_backup(backup_file=backup_2018-09-14-1736_tfsdirect_c786c9af4955-uploads3.zip, type=uploads, info=a:2:{s:4:"path";s:40:"/home/tfs/public_html/wp-content/uploads";s:11:"description";s:7:"Uploads";}, last_one=)
+0080.725 () Unpacking backup... (backup_2018-09-14-1736_tfsdirect_c786c9af4955-uploads3.zip, 24.7 Mb)
+0081.028 () Moving unpacked backup into place...
+0081.075 () Cleaning up rubbish...
+0081.080 () restore_backup(backup_file=backup_2018-09-14-1736_tfsdirect_c786c9af4955-uploads4.zip, type=uploads, info=a:2:{s:4:"path";s:40:"/home/tfs/public_html/wp-content/uploads";s:11:"description";s:7:"Uploads";}, last_one=)
+0081.080 () Unpacking backup... (backup_2018-09-14-1736_tfsdirect_c786c9af4955-uploads4.zip, 28.5 Mb)
+0081.391 () Moving unpacked backup into place...
+0081.411 () Cleaning up rubbish...
+0081.415 () restore_backup(backup_file=backup_2018-09-14-1736_tfsdirect_c786c9af4955-uploads5.zip, type=uploads, info=a:2:{s:4:"path";s:40:"/home/tfs/public_html/wp-content/uploads";s:11:"description";s:7:"Uploads";}, last_one=)
+0081.415 () Unpacking backup... (backup_2018-09-14-1736_tfsdirect_c786c9af4955-uploads5.zip, 25 Mb)
+0081.673 () Moving unpacked backup into place...
+0081.728 () Cleaning up rubbish...
+0081.732 () restore_backup(backup_file=backup_2018-09-14-1736_tfsdirect_c786c9af4955-uploads6.zip, type=uploads, info=a:2:{s:4:"path";s:40:"/home/tfs/public_html/wp-content/uploads";s:11:"description";s:7:"Uploads";}, last_one=)
+0081.732 () Unpacking backup... (backup_2018-09-14-1736_tfsdirect_c786c9af4955-uploads6.zip, 25.1 Mb)
+0082.127 () Moving unpacked backup into place...
+0082.168 () Cleaning up rubbish...
+0082.173 () restore_backup(backup_file=backup_2018-09-14-1736_tfsdirect_c786c9af4955-uploads7.zip, type=uploads, info=a:2:{s:4:"path";s:40:"/home/tfs/public_html/wp-content/uploads";s:11:"description";s:7:"Uploads";}, last_one=)
+0082.173 () Unpacking backup... (backup_2018-09-14-1736_tfsdirect_c786c9af4955-uploads7.zip, 25.1 Mb)
+0082.975 () Moving unpacked backup into place...
+0083.071 () Cleaning up rubbish...
+0083.076 () restore_backup(backup_file=backup_2018-09-14-1736_tfsdirect_c786c9af4955-uploads8.zip, type=uploads, info=a:2:{s:4:"path";s:40:"/home/tfs/public_html/wp-content/uploads";s:11:"description";s:7:"Uploads";}, last_one=)
+0083.076 () Unpacking backup... (backup_2018-09-14-1736_tfsdirect_c786c9af4955-uploads8.zip, 25 Mb)
+0083.476 () Moving unpacked backup into place...
+0083.533 () Cleaning up rubbish...
+0083.545 () restore_backup(backup_file=backup_2018-09-14-1736_tfsdirect_c786c9af4955-uploads9.zip, type=uploads, info=a:2:{s:4:"path";s:40:"/home/tfs/public_html/wp-content/uploads";s:11:"description";s:7:"Uploads";}, last_one=)
+0083.545 () Unpacking backup... (backup_2018-09-14-1736_tfsdirect_c786c9af4955-uploads9.zip, 25.2 Mb)
+0083.822 () Moving unpacked backup into place...
+0083.868 () Cleaning up rubbish...
+0083.872 () restore_backup(backup_file=backup_2018-09-14-1736_tfsdirect_c786c9af4955-uploads10.zip, type=uploads, info=a:2:{s:4:"path";s:40:"/home/tfs/public_html/wp-content/uploads";s:11:"description";s:7:"Uploads";}, last_one=)
+0083.873 () Unpacking backup... (backup_2018-09-14-1736_tfsdirect_c786c9af4955-uploads10.zip, 28.4 Mb)
+0084.154 () Moving unpacked backup into place...
+0084.189 () Cleaning up rubbish...
+0084.193 () restore_backup(backup_file=backup_2018-09-14-1736_tfsdirect_c786c9af4955-uploads11.zip, type=uploads, info=a:2:{s:4:"path";s:40:"/home/tfs/public_html/wp-content/uploads";s:11:"description";s:7:"Uploads";}, last_one=)
+0084.193 () Unpacking backup... (backup_2018-09-14-1736_tfsdirect_c786c9af4955-uploads11.zip, 25 Mb)
+0084.429 () Moving unpacked backup into place...
+0084.467 () Cleaning up rubbish...
+0084.471 () restore_backup(backup_file=backup_2018-09-14-1736_tfsdirect_c786c9af4955-uploads12.zip, type=uploads, info=a:2:{s:4:"path";s:40:"/home/tfs/public_html/wp-content/uploads";s:11:"description";s:7:"Uploads";}, last_one=)
+0084.471 () Unpacking backup... (backup_2018-09-14-1736_tfsdirect_c786c9af4955-uploads12.zip, 37.3 Mb)
+0084.689 () Moving unpacked backup into place...
+0084.708 () Cleaning up rubbish...
+0084.711 () restore_backup(backup_file=backup_2018-09-14-1736_tfsdirect_c786c9af4955-uploads13.zip, type=uploads, info=a:2:{s:4:"path";s:40:"/home/tfs/public_html/wp-content/uploads";s:11:"description";s:7:"Uploads";}, last_one=)
+0084.712 () Unpacking backup... (backup_2018-09-14-1736_tfsdirect_c786c9af4955-uploads13.zip, 25 Mb)
+0084.918 () Moving unpacked backup into place...
+0084.947 () Cleaning up rubbish...
+0084.951 () restore_backup(backup_file=backup_2018-09-14-1736_tfsdirect_c786c9af4955-uploads14.zip, type=uploads, info=a:2:{s:4:"path";s:40:"/home/tfs/public_html/wp-content/uploads";s:11:"description";s:7:"Uploads";}, last_one=)
+0084.951 () Unpacking backup... (backup_2018-09-14-1736_tfsdirect_c786c9af4955-uploads14.zip, 27 Mb)
+0085.150 () Moving unpacked backup into place...
+0085.177 () Cleaning up rubbish...
+0085.190 () restore_backup(backup_file=backup_2018-09-14-1736_tfsdirect_c786c9af4955-uploads15.zip, type=uploads, info=a:2:{s:4:"path";s:40:"/home/tfs/public_html/wp-content/uploads";s:11:"description";s:7:"Uploads";}, last_one=)
+0085.190 () Unpacking backup... (backup_2018-09-14-1736_tfsdirect_c786c9af4955-uploads15.zip, 25 Mb)
+0085.404 () Moving unpacked backup into place...
+0085.427 () Cleaning up rubbish...
+0085.431 () restore_backup(backup_file=backup_2018-09-14-1736_tfsdirect_c786c9af4955-uploads16.zip, type=uploads, info=a:2:{s:4:"path";s:40:"/home/tfs/public_html/wp-content/uploads";s:11:"description";s:7:"Uploads";}, last_one=)
+0085.431 () Unpacking backup... (backup_2018-09-14-1736_tfsdirect_c786c9af4955-uploads16.zip, 25.3 Mb)
+0085.638 () Moving unpacked backup into place...
+0085.670 () Cleaning up rubbish...
+0085.674 () restore_backup(backup_file=backup_2018-09-14-1736_tfsdirect_c786c9af4955-uploads17.zip, type=uploads, info=a:2:{s:4:"path";s:40:"/home/tfs/public_html/wp-content/uploads";s:11:"description";s:7:"Uploads";}, last_one=)
+0085.674 () Unpacking backup... (backup_2018-09-14-1736_tfsdirect_c786c9af4955-uploads17.zip, 25 Mb)
+0085.939 () Moving unpacked backup into place...
+0085.974 () Cleaning up rubbish...
+0085.980 () restore_backup(backup_file=backup_2018-09-14-1736_tfsdirect_c786c9af4955-uploads18.zip, type=uploads, info=a:2:{s:4:"path";s:40:"/home/tfs/public_html/wp-content/uploads";s:11:"description";s:7:"Uploads";}, last_one=)
+0085.981 () Unpacking backup... (backup_2018-09-14-1736_tfsdirect_c786c9af4955-uploads18.zip, 24.8 Mb)
+0086.269 () Moving unpacked backup into place...
+0086.314 () Cleaning up rubbish...
+0086.332 () restore_backup(backup_file=backup_2018-09-14-1736_tfsdirect_c786c9af4955-uploads19.zip, type=uploads, info=a:2:{s:4:"path";s:40:"/home/tfs/public_html/wp-content/uploads";s:11:"description";s:7:"Uploads";}, last_one=)
+0086.332 () Unpacking backup... (backup_2018-09-14-1736_tfsdirect_c786c9af4955-uploads19.zip, 25 Mb)
+0086.599 () Moving unpacked backup into place...
+0086.632 () Cleaning up rubbish...
+0086.645 () restore_backup(backup_file=backup_2018-09-14-1736_tfsdirect_c786c9af4955-uploads20.zip, type=uploads, info=a:2:{s:4:"path";s:40:"/home/tfs/public_html/wp-content/uploads";s:11:"description";s:7:"Uploads";}, last_one=)
+0086.645 () Unpacking backup... (backup_2018-09-14-1736_tfsdirect_c786c9af4955-uploads20.zip, 39.3 Mb)
+0086.980 () Moving unpacked backup into place...
+0087.007 () Cleaning up rubbish...
+0087.019 () restore_backup(backup_file=backup_2018-09-14-1736_tfsdirect_c786c9af4955-uploads21.zip, type=uploads, info=a:2:{s:4:"path";s:40:"/home/tfs/public_html/wp-content/uploads";s:11:"description";s:7:"Uploads";}, last_one=)
+0087.019 () Unpacking backup... (backup_2018-09-14-1736_tfsdirect_c786c9af4955-uploads21.zip, 26.7 Mb)
+0087.316 () Moving unpacked backup into place...
+0087.350 () Cleaning up rubbish...
+0087.368 () restore_backup(backup_file=backup_2018-09-14-1736_tfsdirect_c786c9af4955-uploads22.zip, type=uploads, info=a:2:{s:4:"path";s:40:"/home/tfs/public_html/wp-content/uploads";s:11:"description";s:7:"Uploads";}, last_one=)
+0087.368 () Unpacking backup... (backup_2018-09-14-1736_tfsdirect_c786c9af4955-uploads22.zip, 25.2 Mb)
+0087.612 () Moving unpacked backup into place...
+0087.641 () Cleaning up rubbish...
+0087.656 () restore_backup(backup_file=backup_2018-09-14-1736_tfsdirect_c786c9af4955-uploads23.zip, type=uploads, info=a:2:{s:4:"path";s:40:"/home/tfs/public_html/wp-content/uploads";s:11:"description";s:7:"Uploads";}, last_one=)
+0087.656 () Unpacking backup... (backup_2018-09-14-1736_tfsdirect_c786c9af4955-uploads23.zip, 25 Mb)
+0087.875 () Moving unpacked backup into place...
+0087.900 () Cleaning up rubbish...
+0087.913 () restore_backup(backup_file=backup_2018-09-14-1736_tfsdirect_c786c9af4955-uploads24.zip, type=uploads, info=a:2:{s:4:"path";s:40:"/home/tfs/public_html/wp-content/uploads";s:11:"description";s:7:"Uploads";}, last_one=)
+0087.913 () Unpacking backup... (backup_2018-09-14-1736_tfsdirect_c786c9af4955-uploads24.zip, 25 Mb)
+0088.145 () Moving unpacked backup into place...
+0088.177 () Cleaning up rubbish...
+0088.191 () restore_backup(backup_file=backup_2018-09-14-1736_tfsdirect_c786c9af4955-uploads25.zip, type=uploads, info=a:2:{s:4:"path";s:40:"/home/tfs/public_html/wp-content/uploads";s:11:"description";s:7:"Uploads";}, last_one=)
+0088.191 () Unpacking backup... (backup_2018-09-14-1736_tfsdirect_c786c9af4955-uploads25.zip, 25.6 Mb)
+0088.404 () Moving unpacked backup into place...
+0088.434 () Cleaning up rubbish...
+0088.447 () restore_backup(backup_file=backup_2018-09-14-1736_tfsdirect_c786c9af4955-uploads26.zip, type=uploads, info=a:2:{s:4:"path";s:40:"/home/tfs/public_html/wp-content/uploads";s:11:"description";s:7:"Uploads";}, last_one=)
+0088.448 () Unpacking backup... (backup_2018-09-14-1736_tfsdirect_c786c9af4955-uploads26.zip, 24 Mb)
+0088.746 () Moving unpacked backup into place...
+0088.805 () Cleaning up rubbish...
+0088.825 () restore_backup(backup_file=backup_2018-09-14-1736_tfsdirect_c786c9af4955-uploads27.zip, type=uploads, info=a:2:{s:4:"path";s:40:"/home/tfs/public_html/wp-content/uploads";s:11:"description";s:7:"Uploads";}, last_one=)
+0088.825 () Unpacking backup... (backup_2018-09-14-1736_tfsdirect_c786c9af4955-uploads27.zip, 24.8 Mb)
+0089.103 () Moving unpacked backup into place...
+0089.140 () Cleaning up rubbish...
+0089.148 () restore_backup(backup_file=backup_2018-09-14-1736_tfsdirect_c786c9af4955-uploads28.zip, type=uploads, info=a:2:{s:4:"path";s:40:"/home/tfs/public_html/wp-content/uploads";s:11:"description";s:7:"Uploads";}, last_one=)
+0089.148 () Unpacking backup... (backup_2018-09-14-1736_tfsdirect_c786c9af4955-uploads28.zip, 24.3 Mb)
+0089.432 () Moving unpacked backup into place...
+0089.476 () Cleaning up rubbish...
+0089.492 () restore_backup(backup_file=backup_2018-09-14-1736_tfsdirect_c786c9af4955-uploads29.zip, type=uploads, info=a:2:{s:4:"path";s:40:"/home/tfs/public_html/wp-content/uploads";s:11:"description";s:7:"Uploads";}, last_one=)
+0089.492 () Unpacking backup... (backup_2018-09-14-1736_tfsdirect_c786c9af4955-uploads29.zip, 19.6 Mb)
+0089.997 () Moving unpacked backup into place...
+0090.160 () Cleaning up rubbish...
+0090.534 () Entity: wpcore
+0090.534 () restore_backup(backup_file=backup_2018-09-14-1736_tfsdirect_c786c9af4955-wpcore.zip, type=wpcore, info=a:3:{s:4:"path";s:21:"/home/tfs/public_html";s:11:"description";s:73:"WordPress core (including any additions to your WordPress root directory)";s:9:"htmltitle";s:60:"WordPress root directory server path: /home/tfs/public_html/";}, last_one=1)
+0090.535 () Unpacking backup... (backup_2018-09-14-1736_tfsdirect_c786c9af4955-wpcore.zip, 15.4 Mb)
+0091.160 () wp-config.php from backup: will restore as wp-config-backup.php
+0091.161 () Cleaning up rubbish...
+0091.247 () Restore successful!
+0091.247 () Restore successful

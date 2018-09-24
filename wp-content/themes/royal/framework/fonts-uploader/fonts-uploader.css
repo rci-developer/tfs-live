@@ -1,0 +1,73 @@
+#setting_custom_fonts, .etheme-fonts-section{
+	display: inline-block;
+}
+.etheme-fonts-section{
+    position: relative;
+	padding-right: 15px;
+	padding-left: 15px;
+	width: 40%;
+	float: left;
+}
+.fonts-notifications{
+	background-color: #f7f7f7;
+	float: right;
+}
+.et_font-remover.dashicons-no{
+	cursor: pointer;
+    margin-left: 10px;
+	color: #fc5a5a;
+}
+.et_fonts-br-name, .fonts-notifications td{
+	padding: 10px;
+}
+#option-tree-settings-api .fonts-notifications p{
+	margin-bottom: 5px!important;
+}
+.et_font-preview{
+	line-height: 2;
+}
+.et_font-notice-error, .et_font-error{
+	color: #dc3232;
+}
+.et_font-error{
+	display: inline-block;
+    width: 100%;
+}
+.etheme-fonts-section .et-loader{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #f7f7f7ba;
+}
+.etheme-fonts-section .add-form{
+	display: inline-block;
+    cursor: pointer;
+    border: 1px solid #555;
+    padding: 5px 10px;
+    background-color: #555;
+    color: #fff;
+    border-radius: 5px;
+}
+.etheme-fonts-section .add-form:hover{
+    background-color: #222;
+    border-color: #222;
+}
+
+.etheme-fonts-section summary{
+	cursor: pointer;
+}
+.etheme-fonts-section .et-file-zone label{
+	display: block;
+}
+.etheme-fonts-section .et-file-zone label, #et-fonts{
+	margin-bottom: 5px;
+}
+@media only screen and (max-width: 1024px){
+	.etheme-fonts-section{
+		float: left;
+		width: 100%;
+	}
+}
+
